@@ -108,7 +108,8 @@ width: 280px;
   }
 
   .left {
-    padding: 20px;
+    /* padding: 20px; */
+    display: none;
   }
 
   .left p {
