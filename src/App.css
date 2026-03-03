@@ -51,7 +51,7 @@ width: 280px;
 
 }
 .right h1{
-  margin-left: -370px;
+ align-self: flex-start;
   font-size: 16px;
 }
 .right input{
@@ -93,3 +93,46 @@ width: 280px;
   color: #0064E0;
 }
 
+@media (max-width: 768px) {
+
+  .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .left,
+  .right {
+    width: 100%;
+    height: auto;
+    border: none;
+  }
+
+  .left {
+    padding: 20px;
+  }
+
+  .left p {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .left img {
+    width: 200px;
+    height: auto;
+  }
+
+  .right {
+    padding: 20px;
+  }
+
+  .right h1 {
+  
+    font-size: 20px;
+  }
+
+  .right input,
+  .right button {
+    width: 100%;
+  }
+
+}
